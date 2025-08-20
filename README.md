@@ -1,51 +1,51 @@
-🛍️ Product Management Application
+## **🛍️ Product Management Application**
 
 This is a React + TailwindCSS application built as part of the assignment. It demonstrates product listing, search with debounce, add & edit functionality, and pagination.
 
-🚀 Features
+**🚀 Features**
 
-Product List Display
+1. **Product List Display**
 
-Products displayed in List view (table format).
+    - Products displayed in List view (table format).
 
-Products displayed in Card view (grid format).
+    - Products displayed in Card view (grid format).
 
-Toggle between views with a single button.
+    - Toggle between views with a single button.
 
-Search with Debounce
+2. **Search with Debounce**
 
-Real-time product search by name.
+    - Real-time product search by name.
+    
+    - Debounce set to 500ms for efficient performance.
 
-Debounce set to 500ms for efficient performance.
+3. **Add & Edit Product**
 
-Add & Edit Product
+- **Modal form with validation:**
 
-Modal form with validation:
+    - Name (required)
+    
+    - Price (number, required)
+    
+    - Category (required)
+    
+    - Stock (number, optional)
+    
+    - Description (optional)
 
-Name (required)
+- Inline error messages for invalid input.
 
-Price (number, required)
+- Updates state in memory (no backend required).
 
-Category (required)
+4. Pagination
 
-Stock (number, optional)
+    - Client-side pagination for product list.
+    
+    - Customizable page size.
 
-Description (optional)
+**🛠️ Tech Stack**
 
-Inline error messages for invalid input.
+- **React (Frontend)**
 
-Updates state in memory (no backend required).
+- **TailwindCSS (Styling)**
 
-Pagination
-
-Client-side pagination for product list.
-
-Customizable page size.
-
-🛠️ Tech Stack
-
-React (Frontend)
-
-TailwindCSS (Styling)
-
-Context API (State Management)
+- **Context API (State Management)**
