@@ -1,12 +1,51 @@
-# React + Vite
+🛍️ Product Management Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React + TailwindCSS application built as part of the assignment. It demonstrates product listing, search with debounce, add & edit functionality, and pagination.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Product List Display
 
-## Expanding the ESLint configuration
+Products displayed in List view (table format).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Products displayed in Card view (grid format).
+
+Toggle between views with a single button.
+
+Search with Debounce
+
+Real-time product search by name.
+
+Debounce set to 500ms for efficient performance.
+
+Add & Edit Product
+
+Modal form with validation:
+
+Name (required)
+
+Price (number, required)
+
+Category (required)
+
+Stock (number, optional)
+
+Description (optional)
+
+Inline error messages for invalid input.
+
+Updates state in memory (no backend required).
+
+Pagination
+
+Client-side pagination for product list.
+
+Customizable page size.
+
+🛠️ Tech Stack
+
+React (Frontend)
+
+TailwindCSS (Styling)
+
+Context API (State Management)
